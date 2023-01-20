@@ -1,0 +1,96 @@
+.nav-item {
+  background-image: linear-gradient(to right, #27368c, #27368c, 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item:before {
+  content: "";
+  background: #27368c;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  background-position: 0;
+}
+
+.nav-item:hover::before {
+  width: 100%;
+}
+
+.logosprov {
+  background-color: #27368c;
+  padding: 2rem;
+}
+
+.button__nov {
+  color: #27368c;
+}
+
+.videos iframe {
+  width: 100%;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 300px;
+  filter: grayscale(grey);
+}
+
+main {
+  min-height: 100vh;
+}
+
+.footer {
+  background-image: linear-gradient(#084035, black);
+}
+
+.icon-white {
+  color: white;
+}
+
+.index__main {
+  background: rgb(255, 255, 255);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 42%,
+    rgba(182, 173, 173, 1) 65%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 42%,
+    rgba(182, 173, 173, 1) 65%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 42%,
+    rgba(182, 173, 173, 1) 65%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b6adad",GradientType=1);
+  padding-bottom: 0.5rem;
+}
+
+.servicios__img {
+  height: 22rem;
+  width: 22rem;
+}
+
+.contacto iframe {
+  width: 100%;
+}
+
+.icon-green {
+  color: #084035;
+}
