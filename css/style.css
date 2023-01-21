@@ -9,7 +9,6 @@
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
-
 .nav-item:before {
   content: "";
   background: #27368c;
@@ -21,11 +20,9 @@
   height: 3px;
   transition: all 0.3s ease-in-out;
 }
-
 .nav-item:hover {
   background-position: 0;
 }
-
 .nav-item:hover::before {
   width: 100%;
 }

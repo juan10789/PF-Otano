@@ -10,26 +10,23 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
-}
-
-.nav-item:before {
-  content: "";
-  background: $azul;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav-item:hover {
-  background-position: 0;
-}
-
-.nav-item:hover::before {
-  width: 100%;
+  &:before {
+    content: "";
+    background: $azul;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  &:hover {
+    background-position: 0;
+  }
+  &:hover::before {
+    width: 100%;
+  }
 }
 
 .logosprov {
