@@ -63,9 +63,21 @@ main {
 
 .index__main {
   background: rgb(255, 255, 255);
-  background: -moz-radial-gradient(circle, rgb(255, 255, 255) 42%, rgb(182, 173, 173) 65%);
-  background: -webkit-radial-gradient(circle, rgb(255, 255, 255) 42%, rgb(182, 173, 173) 65%);
-  background: radial-gradient(circle, rgb(255, 255, 255) 42%, rgb(182, 173, 173) 65%);
+  background: -moz-radial-gradient(
+    circle,
+    rgb(255, 255, 255) 42%,
+    rgb(182, 173, 173) 65%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgb(255, 255, 255) 42%,
+    rgb(182, 173, 173) 65%
+  );
+  background: radial-gradient(
+    circle,
+    rgb(255, 255, 255) 42%,
+    rgb(182, 173, 173) 65%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b6adad",GradientType=1);
   padding-bottom: 0.5rem;
 }
